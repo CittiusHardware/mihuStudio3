@@ -1,0 +1,26 @@
+{
+  "libraries": [
+    {
+      "name": "SoftWire",
+      "description": "Biblioteca para comunicação I2C por software.",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "file": "library/SoftWire-1.0.0.zip"
+        }
+      ]
+    },
+    {
+      "name": "CittiusColetor",
+      "description": "Biblioteca principal do Coletor de Dados Cittius.",
+      "latestVersion": "1.0.0",
+      "versions": [
+        {
+          "version": "1.0.0",
+          "file": "library/CittiusColetor-1.0.0.zip"
+        }
+      ]
+    }
+  ]
+}

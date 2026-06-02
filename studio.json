@@ -1,0 +1,29 @@
+{
+  "studio": {
+    "name": "mihuStudio2",
+    "version": "1.0.0"
+  },
+  "boards": [
+    {
+      "id": "MIHU_V1",
+      "name": "MIHU V1",
+      "description": "Controladora educacional MIHU V1 para programação em blocos e C++.",
+      "localPath": "boards/MIHU_V1",
+      "manualPath": "boards/MIHU_V1/doc/manual.pdf",
+      "libraryCatalog": "library/library.json",
+      "requiredLibraries": [
+        "SoftWire"
+      ],
+      "optionalLibraries": [
+        "CittiusColetor"
+      ],
+      "platformio": {
+        "env": "megaatmega2560",
+        "platform": "atmelavr",
+        "board": "megaatmega2560",
+        "framework": "arduino",
+        "monitor_speed": 9600
+      }
+    }
+  ]
+}
