@@ -14,9 +14,6 @@
       "requiredLibraries": [
         "SoftWire"
       ],
-      "optionalLibraries": [
-        "CittiusColetor"
-      ],
       "platformio": {
         "env": "megaatmega2560",
         "platform": "atmelavr",
