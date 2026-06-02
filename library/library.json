@@ -6,19 +6,8 @@
       "latestVersion": "1.0.0",
       "versions": [
         {
-            "version": "2.0.0",
+            "version": "1.0.0",
             "file": "library/SoftWire.zip"
-        }
-      ]
-    },
-    {
-      "name": "CittiusColetor",
-      "description": "Biblioteca principal do Coletor de Dados Cittius.",
-      "latestVersion": "1.0.0",
-      "versions": [
-        {
-          "version": "1.0.0",
-          "file": "library/CittiusColetor-1.0.0.zip"
         }
       ]
     }
