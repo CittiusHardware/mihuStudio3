@@ -2,13 +2,13 @@
   "schemaVersion": 2,
   "app": {
     "id": "mihu-studio",
-    "version": "0.1.1",
+    "version": "0.1.0",
     "releaseNotes": "Atualização de teste do MIHU Studio.",
     "packages": {
       "windows": {
-        "type": "installer",
-        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio-Setup.exe",
-        "fileName": "MIHU-Studio-Setup.exe",
+        "type": "zip",
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/mihu-studio-windows.zip",
+        "fileName": "mihu-studio-windows.zip",
         "sha256": ""
       },
       "linux": {
@@ -43,11 +43,108 @@
       "name": "MIHU V1",
       "description": "Linguagem de código: C++",
       "language": "arduino_cpp",
+      "codeLanguage": "arduino_cpp",
+      "compilerId": "platformio_local_python",
       "version": "1.0.2",
       "image": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/MIHU_V1/produto.png",
       "productImage": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/MIHU_V1/produto.png",
-      "workspaceUrl": "/workspace?board=MIHU_V1&lang=blocks",
-      "enabled": true
+      "workspaceUrl": "/workspace?board=MIHU_V1",
+      "enabled": true,
+      "environments": [
+        {
+          "id": "blocks",
+          "name": "Blocos",
+          "enabled": true,
+          "default": true,
+          "topbarProfile": "arduino_cpp.blocks"
+        },
+        {
+          "id": "flowchart",
+          "name": "Fluxograma",
+          "enabled": true,
+          "default": false,
+          "topbarProfile": "arduino_cpp.flowchart"
+        },
+        {
+          "id": "text",
+          "name": "Texto",
+          "enabled": true,
+          "default": false,
+          "topbarProfile": "arduino_cpp.text"
+        }
+      ]
+    },
+    {
+      "id": "MIHU_M1",
+      "name": "MIHU M1",
+      "description": "Linguagem de código: MicroPython",
+      "language": "micropython",
+      "codeLanguage": "micropython",
+      "compilerId": "micropython",
+      "version": "1.0.0",
+      "image": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/MIHU_M1/produto.png",
+      "productImage": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/MIHU_M1/produto.png",
+      "workspaceUrl": "/workspace?board=MIHU_M1",
+      "enabled": true,
+      "environments": [
+        {
+          "id": "blocks",
+          "name": "Blocos",
+          "enabled": true,
+          "default": true,
+          "topbarProfile": "micropython.blocks"
+        },
+        {
+          "id": "flowchart",
+          "name": "Fluxograma",
+          "enabled": true,
+          "default": false,
+          "topbarProfile": "micropython.flowchart"
+        },
+        {
+          "id": "text",
+          "name": "Texto",
+          "enabled": true,
+          "default": false,
+          "topbarProfile": "micropython.text"
+        }
+      ]
+    },
+    {
+      "id": "EV6",
+      "name": "MIHU EV6",
+      "description": "Linguagem de código: STM32/C",
+      "language": "stm32_c",
+      "codeLanguage": "stm32_c",
+      "compilerId": "ev6_stm32",
+      "version": "1.0.0",
+      "image": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/EV6/produto.png",
+      "productImage": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/EV6/produto.png",
+      "workspaceUrl": "/workspace?board=EV6",
+      "enabled": true,
+      "environments": [
+        {
+          "id": "blocks",
+          "name": "Blocos",
+          "enabled": true,
+          "default": true,
+          "topbarProfile": "stm32_c.blocks"
+        },
+        {
+          "id": "flowchart",
+          "name": "Fluxograma",
+          "enabled": true,
+          "default": false,
+          "topbarProfile": "stm32_c.flowchart"
+        },
+        {
+          "id": "text",
+          "name": "Texto",
+          "enabled": true,
+          "default": false,
+          "topbarProfile": "stm32_c.text"
+        }
+      ]
     }
   ]
 }
