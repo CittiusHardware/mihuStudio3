@@ -1,7 +1,41 @@
 {
+  "schemaVersion": 2,
   "app": {
-    "version": "0.1.0",
-    "packageUrl": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/mihu-studio.zip"
+    "id": "mihu-studio",
+    "version": "0.1.1",
+    "releaseNotes": "Atualização de teste do MIHU Studio.",
+    "packages": {
+      "windows": {
+        "type": "installer",
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio-Setup.exe",
+        "fileName": "MIHU-Studio-Setup.exe",
+        "sha256": ""
+      },
+      "linux": {
+        "type": "appimage",
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio.AppImage",
+        "fileName": "MIHU-Studio.AppImage",
+        "sha256": ""
+      },
+      "macos": {
+        "type": "dmg",
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio.dmg",
+        "fileName": "MIHU-Studio.dmg",
+        "sha256": ""
+      },
+      "chromeos": {
+        "type": "pwa",
+        "url": "https://studio.cittius.com.br",
+        "fileName": "",
+        "sha256": ""
+      },
+      "web": {
+        "type": "pwa",
+        "url": "https://studio.cittius.com.br",
+        "fileName": "",
+        "sha256": ""
+      }
+    }
   },
   "cards": [
     {
