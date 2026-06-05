@@ -1,93 +1,93 @@
 {
-"schemaVersion": 2,
-"app": {
-"id": "mihu-studio",
-"version": "0.1.1",
-"releaseNotes": "Atualização de teste do MIHU Studio.",
-"packages": {
-"windows": {
-"type": "zip",
-"url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/mihu-studio-windows.zip",
-"fileName": "mihu-studio-windows.zip",
-"sha256": ""
-},
-"linux": {
-"type": "appimage",
-"url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio.AppImage",
-"fileName": "MIHU-Studio.AppImage",
-"sha256": ""
-},
-"macos": {
-"type": "dmg",
-"url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio.dmg",
-"fileName": "MIHU-Studio.dmg",
-"sha256": ""
-},
-"chromeos": {
-"type": "pwa",
-"url": "https://studio.cittius.com.br",
-"fileName": "",
-"sha256": ""
-},
-"web": {
-"type": "pwa",
-"url": "https://studio.cittius.com.br",
-"fileName": "",
-"sha256": ""
-}
-}
-},
-"cards": [
-{
-"id": "MIHU_V1",
-"name": "MIHU V1",
-"description": "Placa baseada em ATmega2560 com programação por blocos e compilação via PlatformIO.",
-"language": "arduino_cpp",
-"codeLanguage": "arduino_cpp",
-"compilerId": "platformio_atmega2560",
-"version": "1.0.1",
-"image": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/main/main/cards/MIHU_V1/produto.png",
-"productImage": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/main/main/cards/MIHU_V1/produto.png",
-"zipUrl": "https://github.com/CittiusHardware/mihuStudio3/releases/download/MIHU_V1/MIHU_V1_v1.0.1.zip",
-"boardPackage": {
-"type": "zip",
-"url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/MIHU_V1/MIHU_V1_v1.0.1.zip",
-"fileName": "MIHU_V1_v1.0.1.zip",
-"sha256": ""
-},
-"workspaceUrl": "/workspace?board=MIHU_V1",
-"enabled": true,
-"environments": [
-{
-"id": "blocks",
-"name": "Blocos",
-"enabled": true,
-"default": true,
-"topbarProfile": "arduino_cpp.blocks"
-},
-{
-"id": "flowchart",
-"name": "Fluxograma",
-"enabled": false,
-"default": false,
-"topbarProfile": "arduino_cpp.flowchart"
-},
-{
-"id": "text",
-"name": "Texto",
-"enabled": false,
-"default": false,
-"topbarProfile": "arduino_cpp.text"
-}
-],
-"platformio": {
-"env": "mihu_v1",
-"platform": "atmelavr",
-"board": "megaatmega2560",
-"framework": "arduino",
-"monitor_speed": 115200,
-"upload_speed": 115200
-}
-}
-]
+  "schemaVersion": 2,
+  "app": {
+    "id": "mihu-studio",
+    "version": "0.1.1",
+    "releaseNotes": "Atualização de teste do MIHU Studio.",
+    "packages": {
+      "windows": {
+        "type": "zip",
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/mihu-studio-windows.zip",
+        "fileName": "mihu-studio-windows.zip",
+        "sha256": ""
+      },
+      "linux": {
+        "type": "appimage",
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio.AppImage",
+        "fileName": "MIHU-Studio.AppImage",
+        "sha256": ""
+      },
+      "macos": {
+        "type": "dmg",
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/v0.1.1/MIHU-Studio.dmg",
+        "fileName": "MIHU-Studio.dmg",
+        "sha256": ""
+      },
+      "chromeos": {
+        "type": "pwa",
+        "url": "https://studio.cittius.com.br",
+        "fileName": "",
+        "sha256": ""
+      },
+      "web": {
+        "type": "pwa",
+        "url": "https://studio.cittius.com.br",
+        "fileName": "",
+        "sha256": ""
+      }
+    }
+  },
+  "cards": [
+    {
+      "id": "MIHU_V1",
+      "name": "MIHU V1",
+      "description": "Placa baseada em ATmega2560 com programação por blocos e compilação via PlatformIO.",
+      "language": "arduino_cpp",
+      "codeLanguage": "arduino_cpp",
+      "compilerId": "platformio_atmega2560",
+      "version": "1.0.1",
+      "image": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/main/main/cards/MIHU_V1/produto.png",
+      "productImage": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/main/main/cards/MIHU_V1/produto.png",
+      "boardPackage": {
+        "type": "mihupkg",
+        "encrypted": true,
+        "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/MIHU_V1/MIHU_V1_v1.0.1.mihupkg",
+        "fileName": "MIHU_V1_v1.0.1.mihupkg",
+        "sha256": "COLE_AQUI_O_SHA256_GERADO_PELO_BUILD"
+      },
+      "workspaceUrl": "/workspace?board=MIHU_V1",
+      "enabled": true,
+      "environments": [
+        {
+          "id": "blocks",
+          "name": "Blocos",
+          "enabled": true,
+          "default": true,
+          "topbarProfile": "arduino_cpp.blocks"
+        },
+        {
+          "id": "flowchart",
+          "name": "Fluxograma",
+          "enabled": false,
+          "default": false,
+          "topbarProfile": "arduino_cpp.flowchart"
+        },
+        {
+          "id": "text",
+          "name": "Texto",
+          "enabled": false,
+          "default": false,
+          "topbarProfile": "arduino_cpp.text"
+        }
+      ],
+      "platformio": {
+        "env": "mihu_v1",
+        "platform": "atmelavr",
+        "board": "megaatmega2560",
+        "framework": "arduino",
+        "monitor_speed": 115200,
+        "upload_speed": 115200
+      }
+    }
+  ]
 }
