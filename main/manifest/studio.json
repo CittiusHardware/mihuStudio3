@@ -10,7 +10,7 @@
       "description": "Linguagem de código: C++",
       "language": "arduino_cpp",
       "version": "1.0.1",
-      "image": "/assets/img/mihu-v1.svg",
+      "image": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/MIHU_V1/produto.png",
       "productImage": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/refs/heads/main/main/cards/MIHU_V1/produto.png",
       "workspaceUrl": "/workspace?board=MIHU_V1&lang=blocks",
       "enabled": true
