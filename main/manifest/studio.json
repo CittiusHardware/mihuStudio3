@@ -45,15 +45,15 @@
 "language": "arduino_cpp",
 "codeLanguage": "arduino_cpp",
 "compilerId": "platformio_atmega2560",
-"version": "1.0.1",
+"version": "1.0.2",
 "image": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/main/main/cards/MIHU_V1/produto.png",
 "productImage": "https://raw.githubusercontent.com/CittiusHardware/mihuStudio3/main/main/cards/MIHU_V1/produto.png",
 "boardPackage": {
 "type": "mihupkg",
 "encrypted": true,
-"url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/MIHU_V1/MIHU_V1_v1.0.1.mihupkg",
-"fileName": "MIHU_V1_v1.0.1.mihupkg",
-"sha256": "9a6a694c87bdae7ed1e58eace8806b8423026ece711a0e0af555657575a38b33"
+"url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/MIHU_V1/MIHU_V1_v1.0.2.mihupkg",
+"fileName": "MIHU_V1_v1.0.2.mihupkg",
+"sha256": "COLE_AQUI_O_SHA256_DA_VERSAO_1_0_2"
 },
 "workspaceUrl": "/workspace?board=MIHU_V1",
 "enabled": true,
