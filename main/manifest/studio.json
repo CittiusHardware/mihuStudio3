@@ -53,7 +53,7 @@
 "encrypted": true,
 "url": "https://github.com/CittiusHardware/mihuStudio3/releases/download/MIHU_V1/MIHU_V1_v1.0.2.mihupkg",
 "fileName": "MIHU_V1_v1.0.2.mihupkg",
-"sha256": "COLE_AQUI_O_SHA256_DA_VERSAO_1_0_2"
+"sha256": "37b6189f9c60f5fcbebcdfb3f4c9842ed4ebd6d595260f6cc28f40a9dd25d4d8"
 },
 "workspaceUrl": "/workspace?board=MIHU_V1",
 "enabled": true,
